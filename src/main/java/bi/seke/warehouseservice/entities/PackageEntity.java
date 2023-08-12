@@ -14,4 +14,5 @@ public class PackageEntity implements Serializable {
     private UUID uid;
     private UUID packageUid;
     private Status status;
+    private UUID warehouse;
 }

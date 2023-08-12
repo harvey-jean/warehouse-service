@@ -12,7 +12,7 @@ import java.util.UUID;
 public class WarehouseEntity implements Serializable {
 
     private UUID uid;
-    private Address address;
+    private UUID address;
     private String email;
     private String phone;
     private boolean active;
